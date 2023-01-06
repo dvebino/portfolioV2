@@ -9,7 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{display: "flex", alignItems: "center", color:"white", marginBottom:"20px"}}>
+        <a style={{display: "flex", alignItems: "center", color:"white", marginBottom:"5px"}}>
           <FaConnectdevelop size="3rem"/>
           <span style={{marginLeft:"1rem"}}>Portfolio V2 </span>
         </a>
@@ -17,22 +17,22 @@ const Header = () =>  (
     </Div1>
 
     <Div2>
-      <li>
+      <li style={{marginTop:"6px"}}>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
-      <li>
+      <li style={{marginTop:"6px"}}>
         <Link href="#tech">
           <NavLink>Tech</NavLink>
         </Link>
       </li>
-      <li>
+      <li style={{marginTop:"6px"}}>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
-      <li>
+      <li style={{marginTop:"6px"}}>
         <Link href="#resume">
           <NavLink>Resume</NavLink>
         </Link>
