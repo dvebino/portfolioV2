@@ -5,7 +5,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <div>
-    Technologies
+    <Section>
+      
+    </Section>
   </div>
 );
 
