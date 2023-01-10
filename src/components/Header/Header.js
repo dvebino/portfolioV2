@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import React from 'react';
 import { AiFillGithub, AiFillGoogleCircle, AiFillLinkedin } from 'react-icons/ai';
 import { FaConnectdevelop } from 'react-icons/fa';
@@ -28,13 +27,8 @@ const Header = () =>  (
         </Link>
       </li>
       <li style={{marginTop:"6px"}}>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-      <li style={{marginTop:"6px"}}>
-        <Link href="#resume">
-          <NavLink>Resume</NavLink>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2> 

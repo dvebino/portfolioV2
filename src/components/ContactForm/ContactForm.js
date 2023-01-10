@@ -11,7 +11,7 @@ import { FormButton, FormContainer, FormInput, FormLabel, FormTitle, FormTextAre
 
 const ContactForm = () => {
   return (
-    <Section>
+    <Section id="contact">
         <SectionDivider />
         <SectionTitle main>Contact Form</SectionTitle>
 

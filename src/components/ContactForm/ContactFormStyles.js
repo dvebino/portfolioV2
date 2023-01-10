@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FormSection = styled.div`
-    padding: 160px 0;
+    padding: 80px 0;
     display: flex;
     justify-content:center;
 `
@@ -53,7 +53,16 @@ export const FormInput = styled.input`
 `
 
 export const FormTextArea = styled.textarea`
-
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-top:1rem;
 `
 
 export const FormLabel = styled.label`
@@ -61,8 +70,4 @@ export const FormLabel = styled.label`
     font-size: 2rem;
     font-weight: 400;
     color: black;
-`
-
-export const FormTitle = styled.span`
-
 `
