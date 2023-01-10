@@ -10,7 +10,7 @@ const Header = () =>  (
       <Link href="/">
         <a style={{display: "flex", alignItems: "center", color:"white", marginBottom:"5px"}}>
           <FaConnectdevelop size="3rem"/>
-          <span style={{marginLeft:"1rem"}}>Portfolio V2 </span>
+          <span style={{marginLeft:"1rem"}}>DVEBINO</span>
         </a>
       </Link>
     </Div1>
