@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-export const FormSection = styled.div`
+export const FormSection = styled.form`
     padding: 80px 0;
     display: flex;
     justify-content:center;
 `
 
-export const FormContainer = styled.div`
+export const FormContainer = styled.form`
     display: flex;
     padding: 40px;
 	background: white;

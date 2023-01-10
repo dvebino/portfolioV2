@@ -1,31 +1,32 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   Section,
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-
-import Button from "../../styles/GlobalComponents/Button";
+import { useForm } from "@formspree/react";
 
 import { FormButton, FormContainer, FormInput, FormLabel, FormTitle, FormTextArea, FormSection } from "./ContactFormStyles";
 
 const ContactForm = () => {
+  const [state, handleSubmit] = useForm("moqbyogq");
+
   return (
     <Section id="contact">
         <SectionDivider />
         <SectionTitle main>Contact Form</SectionTitle>
 
-        <FormSection>
-            <FormContainer>
+        <FormSection onSubmit={handleSubmit}>
+            <FormContainer onSubmit={handleSubmit}>
                 <FormLabel>Name:</FormLabel>
-                <FormInput />
+                <FormInput id="name" name="name"/>
 
                 <FormLabel>Email:</FormLabel>
-                <FormInput />
+                <FormInput id="email" type="email" name="email"/>
                 
                 <FormLabel>Message:</FormLabel>
-                <FormTextArea />
-                <FormButton>Send Message</FormButton>
+                <FormTextArea id="message" name="message" />
+                <FormButton type="submit">Send Message</FormButton>
             </FormContainer>
         </FormSection>
     </Section>
