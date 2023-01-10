@@ -5,7 +5,9 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 
-import { FormButton, FormContainer, FormInput, FormLabel, FormTitle } from "./ContactFormStyles";
+import Button from "../../styles/GlobalComponents/Button";
+
+import { FormButton, FormContainer, FormInput, FormLabel, FormTitle, FormTextArea, FormSection } from "./ContactFormStyles";
 
 const ContactForm = () => {
   return (
@@ -13,10 +15,19 @@ const ContactForm = () => {
         <SectionDivider />
         <SectionTitle main>Contact Form</SectionTitle>
 
-        <FormContainer>
-            <FormInput />
-            <FormButton>Send Message</FormButton>
-        </FormContainer>
+        <FormSection>
+            <FormContainer>
+                <FormLabel>Name:</FormLabel>
+                <FormInput />
+
+                <FormLabel>Email:</FormLabel>
+                <FormInput />
+                
+                <FormLabel>Message:</FormLabel>
+                <FormTextArea />
+                <FormButton>Send Message</FormButton>
+            </FormContainer>
+        </FormSection>
     </Section>
   );
 };
