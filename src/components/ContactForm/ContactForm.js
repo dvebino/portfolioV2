@@ -1,9 +1,24 @@
-import React from 'react'
+import React from "react";
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+
+import { FormButton, FormContainer, FormInput, FormLabel, FormTitle } from "./ContactFormStyles";
 
 const ContactForm = () => {
   return (
-    <div>ContactForm</div>
-  )
-}
+    <Section>
+        <SectionDivider />
+        <SectionTitle main>Contact Form</SectionTitle>
 
-export default ContactForm
+        <FormContainer>
+            <FormInput />
+            <FormButton>Send Message</FormButton>
+        </FormContainer>
+    </Section>
+  );
+};
+
+export default ContactForm;
