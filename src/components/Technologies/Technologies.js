@@ -15,10 +15,11 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End Experience</ListTitle>
           <ListParagraph>
-            React.js<br/>
+            React<br/>
             HTML<br/>
             CSS<br/>
-            Next.js<br/>
+            Styled Components<br/>
+            TailwindCSS<br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,8 +30,10 @@ const Technologies = () =>  (
           <ListTitle>Back-End Experience</ListTitle>
           <ListParagraph>
             PostgreSQL<br/>
+            Node.js<br/>
             MongoDB<br/>
             Django<br/>
+            GraphQL<br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -42,12 +45,13 @@ const Technologies = () =>  (
             <ListTitle>UI/UX Experience</ListTitle>
             <ListParagraph>
               Figma<br/>
-              Adobe XD <br/>
-              Canvas <br/>
+              Canvas<br/>
+              Adobe XD<br/>
             </ListParagraph>
           </ListContainer>
         </ListContainer>
       </ListItem>
+      
     </List>
   </Section>
 );
