@@ -7,7 +7,7 @@ export const projects = [
       image: '/images/Bobo.png',
       tags: ['PostgreSQL','Express','React Native','Node'],
     source: 'https://github.com/Gonzos-Greenery/BoBo',
-    visit: 'https://google.com',
+    visit: '',
     id: 0,
   },
   {
