@@ -7,6 +7,7 @@ export const projects = [
       image: '/images/Bobo.png',
       tags: ['PostgreSQL','Express','React Native','Node'],
     source: 'https://github.com/Gonzos-Greenery/BoBo',
+    video: 'https://www.canva.com/design/DAFG5XNELNA/Xm9Yu7p5gfu9CBrZgXExvw/watch?utm_content=DAFG5XNELNA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
     visit: '',
     id: 0,
   },
@@ -16,8 +17,9 @@ export const projects = [
       image: '/images/team-dash.png',
       tags: ['React', 'TailwindCSS', 'JavaScript', 'Syncfusion'],
     source: 'https://github.com/dvebino/team-dashboard',
-    visit: 'https://google.com',
+    visit: 'http://team-dashboard.com/',
     id: 2,
+    video: ''
   },
   {
     title: 'Social_py',
@@ -25,8 +27,9 @@ export const projects = [
     image: '/images/social-py.jpg',
     tags: ['Python','Django'],
     source: 'https://github.com/dvebino/social-app-py',
-    visit: 'https://google.com',
+    visit: '',
     id: 1,
+    video: ''
   },
   {
     title: 'DJ Landing Page',
@@ -34,8 +37,9 @@ export const projects = [
     image: '/images/dj.png',
     tags: ['Next', 'React', 'JavaScript'],
     source: 'https://github.com/ericyjiang/DIMSVM-Artist-Page',
-    visit: 'https://google.com',
+    visit: '',
     id: 4,
+    video: ''
   },
   {
     title: 'Medium Clone - Blog Page',
@@ -43,8 +47,9 @@ export const projects = [
       image: '/images/mediumClone.png',
       tags: ['React', 'TypeScript', 'TailwindCSS'],
     source: 'https://github.com/dvebino/Medium-Clone',
-    visit: 'https://google.com',
+    visit: 'https://rad-gaufre-e11798.netlify.app',
     id: 3,
+    video: ''
   },
 ];
 
