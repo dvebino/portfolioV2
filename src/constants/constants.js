@@ -21,6 +21,17 @@ export const projects = [
     id: 2,
     video: ''
   },
+
+  {
+    title: 'Weather_iOS',
+    description: `Built an iOS application using SwiftUI, a framework for building user interfaces on Apple platforms. Once given location permissions, the application is able to retrieve weather information through OpenWeatherApp (An API providing easy access to weather forecasts, nowcasts, and history).`,
+    image: '/images/swift.jpg',
+    tags: ['SwiftUI', 'Xcode', 'API'],
+    source: 'https://github.com/dvebino/Weather_iOS',
+    video: '',
+    visit: '',
+    id: 5,
+  },
   {
     title: 'Social_py',
     description:"Developed an Instagram Clone utilizing Python and Django to support the Full Stack Application. Django's clean design and toolkit allowed quick access and easy ability to recieve or alter information on the database.",
