@@ -13,7 +13,7 @@ const Header = () => {
     <Container>
     <Div1>
       <Link href="/">
-        <a style={{display: "flex", alignItems: "center", color:"white", marginBottom:"5px"}}>
+        <a style={{display: "flex", alignItems: "center", color:"white", marginBottom:"5px", marginLeft:"3rem"}}>
           <FaConnectdevelop size="3rem"/>
           <span style={{marginLeft:"1rem"}}>DVEBINO</span>
         </a>
@@ -46,12 +46,12 @@ const Header = () => {
       <SocialIcons href="mailto:dhuang2495@gmail.com">
         <AiFillGoogleCircle size="3rem"/>
       </SocialIcons>
-      <ContactDropDown>
+      {/* <ContactDropDown>
         <GiHamburgerMenu size="3rem" onClick={() => setClicked(!clicked)}/>
         { 
           clicked && <NavDropDown isOpen={clicked}/>
         }
-      </ContactDropDown>
+      </ContactDropDown> */}
     </Div3>
   </Container>
   )

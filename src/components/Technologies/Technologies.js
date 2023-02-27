@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiIllustrator, DiGitBranch } from 'react-icons/di';
+import { SiAzuredevops } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -13,13 +14,13 @@ const Technologies = () =>  (
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End Experience</ListTitle>
+          <ListTitle>Front-End Skills</ListTitle>
           <ListParagraph>
             React<br/>
             HTML<br/>
             CSS<br/>
+            Redux<br/>
             Styled Components<br/>
-            TailwindCSS<br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,7 +28,7 @@ const Technologies = () =>  (
       <ListItem>
         <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End Experience</ListTitle>
+          <ListTitle>Back-End Skills</ListTitle>
           <ListParagraph>
             PostgreSQL<br/>
             Node.js<br/>
@@ -39,10 +40,25 @@ const Technologies = () =>  (
       </ListItem>
 
       <ListItem>
-        <DiZend size="3rem" />
+        <DiGitBranch size="2.5rem" />
         <ListContainer>
           <ListContainer>
-            <ListTitle>UI/UX Experience</ListTitle>
+            <ListTitle>DevOps Skills</ListTitle>
+            <ListParagraph>
+              Git/GitHub<br/>
+              AWS<br/>
+              Netlify<br/>
+              Docker<br/>
+            </ListParagraph>
+          </ListContainer>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiIllustrator size="3rem" />
+        <ListContainer>
+          <ListContainer>
+            <ListTitle>UI/UX Skills</ListTitle>
             <ListParagraph>
               Figma<br/>
               Canvas<br/>
