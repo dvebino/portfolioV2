@@ -50,6 +50,7 @@ export const FormInput = styled.input`
     border-bottom: 1px solid #cfcfcf;
     font-size: 2rem;
     margin-bottom: 1rem;
+    text-align:center;
 `
 
 export const FormTextArea = styled.textarea`
@@ -70,4 +71,13 @@ export const FormLabel = styled.label`
     font-size: 2rem;
     font-weight: 400;
     color: black;
+`
+
+export const FormLabelCenter = styled.label`
+    display: flex;
+    align-self:center;
+    font-size: 3rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 2rem;
 `
