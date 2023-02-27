@@ -5,7 +5,7 @@ export const DropDownContainer = styled.div`
   display: flex;
   flex-direction: column;
   right: -25%;
-  top: 40px;
+  top: 60px;
   width: 280px;
   background-color: #fff;
   border-radius: 8px;
@@ -16,8 +16,7 @@ export const DropDownContainer = styled.div`
   transition: 0.3s ease;
   visibility: ${({ active }) => active ? 'visible' : 'hidden'};
   opacity: ${({ active }) => active ? '1' : '0'};
-  transform-origin: top;
-  transform: ${({ active }) => active ? 'scaleY(1)' : 'scaleY(.3)'};
+  transform: ${({ active }) => active ? 'scaleY(1)' : 'scaleY(.5)'};
 
   @media ${(props) => props.theme.breakpoints.md} {
     top: 32px;
