@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  height:300px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -35,7 +35,6 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
 
 
@@ -43,7 +42,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: .5rem 0;
+  padding: 1rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
