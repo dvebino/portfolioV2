@@ -1,6 +1,6 @@
 import React from 'react';
 import TypewriterComponent from 'typewriter-effect';
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTextHero, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -15,11 +15,11 @@ const Hero = (props) => (
           strings: [`Hi, I'm David!`],
         }}
       />
-        Welcome To My Portfolio
+      Welcome To My Portfolio
       </SectionTitle>
-      <SectionText>
+      <SectionTextHero>
       Crafting visually stunning and user-friendly web experiences with passion and precision.
-      </SectionText>
+      </SectionTextHero>
 
       <Button onClick={() => window.location = "https://github.com/dvebino"}>Read More</Button>
     </LeftSection>
