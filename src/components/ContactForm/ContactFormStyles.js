@@ -50,7 +50,6 @@ export const FormInput = styled.input`
     border-bottom: 1px solid #cfcfcf;
     font-size: 2rem;
     margin-bottom: 1rem;
-    text-align:center;
 `
 
 export const FormTextArea = styled.textarea`
