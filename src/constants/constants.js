@@ -13,7 +13,7 @@ export const projects = [
   },
   {
     title: 'Team Dashboard',
-    description: `Built a dynamic web application to provide team managers easy access to business analytics, transactions, and various integrated project management features such as a Kanban board. The web application supports the various needs of a team and presents it in a clean and concise user interface.`,
+    description: `Built a dynamic web application to provide team managers easy access to business analytics, transactions, and various integrated project management features such as a Kanban board. The web application supports the various needs of a team and presents it in a clean and concise user interface. Planning on integrating a live-chat system.`,
       image: '/images/team-dash.png',
       tags: ['React', 'TailwindCSS', 'JavaScript', 'Syncfusion'],
     source: 'https://github.com/dvebino/team-dashboard',
@@ -32,6 +32,16 @@ export const projects = [
     video: ''
   },
   {
+    title: 'Oura Health',
+    description: `Oura Health is an application designed to present sleep data, resources, and tools to help users achieve better recovery. The app is built with inspiration from Oura Ring, an amazing health tracker that lives on your finger. With OAUTH, the web app will be able to display data models for authenticated users health data that was collected from Oura Ring.`,
+    image: '/images/health.png',
+    tags: ['React', 'Material UI', 'OAUTH'],
+    source: 'https://github.com/dvebino/health.io',
+    video: '',
+    visit: '',
+    id: 3,
+  },
+  {
     title: 'Weather_iOS',
     description: `Built an iOS application using SwiftUI, a framework for building user interfaces on Apple platforms. Once given location permissions, the application is able to retrieve weather information through OpenWeatherApp (An API providing easy access to weather forecasts, nowcasts, and history).`,
     image: '/images/swift.jpg',
@@ -39,7 +49,7 @@ export const projects = [
     source: 'https://github.com/dvebino/Weather_iOS',
     video: '',
     visit: '',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Social_py',
@@ -48,7 +58,7 @@ export const projects = [
     tags: ['Python','Django'],
     source: 'https://github.com/dvebino/social-app-py',
     visit: '',
-    id: 4,
+    id: 5,
     video: ''
   },
   {
@@ -58,7 +68,7 @@ export const projects = [
     tags: ['Next.js', 'React', 'JavaScript'],
     source: 'https://github.com/ericyjiang/DIMSVM-Artist-Page',
     visit: '',
-    id: 5,
+    id: 6,
     video: ''
   }
 ];
