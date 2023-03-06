@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BackgroundAnimation = () => (
+const LogoSVG = () => (
   <div style={{paddingLeft: "3rem"}}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 215">
       <g transform="matrix(0.5,0,0,0.5,0,0)">
@@ -19,4 +19,4 @@ const BackgroundAnimation = () => (
   </div>
 );
 
-export default BackgroundAnimation;
+export default LogoSVG;

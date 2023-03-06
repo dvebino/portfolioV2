@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
-  object-fit: cover;
-  overflow: hidden;
+  max-width: 100%
 `
 
 export const GridContainer = styled.section`
@@ -12,7 +9,6 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
-column-gap: 2rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
@@ -47,9 +43,9 @@ export const HeaderThree = styled.h3`
 `;
 
 export const Hr = styled.hr`
-  width: 50px;
+  width: 60px;
   height: 3px;
-  margin: 20px auto;
+  margin: 10px auto;
   border: 0;
   background: #d0bb57;
 `;
@@ -67,7 +63,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 5px 30px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
@@ -88,14 +84,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:black;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #C0A9DA;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #9358d6;
 
 }
 `;

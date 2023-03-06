@@ -2,10 +2,10 @@ export const projects = [
   {
     title: 'BoBo Movie App',
     description: `An iOS Mobile Application with the objective of creating a social application to deliver weighted
-    recommendations based upon user’s data. The app incorporates multi-variable functionality to fine-tune results
+    recommendations based upon user’s data. Incorporates multi-variable functionality to fine-tune results
     based upon streaming services, an user's watch history, and genre preferences. An easy-to-use application to finally solve the most important question: "What should we watch tonight?"`,
       image: '/images/Bobo.png',
-      tags: ['PostgreSQL','Express','React Native','Node'],
+      tags: ['PostgreSQL','Express.js','React Native','Node.js'],
     source: 'https://github.com/Gonzos-Greenery/BoBo',
     video: 'https://www.canva.com/design/DAFG5XNELNA/Xm9Yu7p5gfu9CBrZgXExvw/watch?utm_content=DAFG5XNELNA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
     visit: '',
@@ -18,10 +18,19 @@ export const projects = [
       tags: ['React', 'TailwindCSS', 'JavaScript', 'Syncfusion'],
     source: 'https://github.com/dvebino/team-dashboard',
     visit: 'http://team-dashboard.com/',
+    id: 1,
+    video: ''
+  },
+  {
+    title: 'PortfolioV2',
+    description: "Built a responsive web application to showcase the various projects that I have worked on. The app utilizes Styled Components, React, and Next.js to build the static website. Formspree is used to manage the form submissions and inputs. It allows the application to function without a backend.",
+      image: '/images/portfolio.png',
+      tags: ['React','Styled Components', 'Next.js'],
+    source: 'https://github.com/dvebino/portfolioV2',
+    visit: 'https://davs-portfolio.com/',
     id: 2,
     video: ''
   },
-
   {
     title: 'Weather_iOS',
     description: `Built an iOS application using SwiftUI, a framework for building user interfaces on Apple platforms. Once given location permissions, the application is able to retrieve weather information through OpenWeatherApp (An API providing easy access to weather forecasts, nowcasts, and history).`,
@@ -30,7 +39,7 @@ export const projects = [
     source: 'https://github.com/dvebino/Weather_iOS',
     video: '',
     visit: '',
-    id: 5,
+    id: 3,
   },
   {
     title: 'Social_py',
@@ -39,27 +48,17 @@ export const projects = [
     tags: ['Python','Django'],
     source: 'https://github.com/dvebino/social-app-py',
     visit: '',
-    id: 1,
+    id: 4,
     video: ''
   },
   {
     title: 'DJ Landing Page',
     description: "Built a landing page for NY-Local DJ (DIMSVM) to support their fanbase. Incorporated a built-in music player for users to listen to their latest hits. Utilized Next.js to build our React-based web application with server-side rendering.",
     image: '/images/dj.png',
-    tags: ['Next', 'React', 'JavaScript'],
+    tags: ['Next.js', 'React', 'JavaScript'],
     source: 'https://github.com/ericyjiang/DIMSVM-Artist-Page',
     visit: '',
-    id: 4,
+    id: 5,
     video: ''
-  },
-  {
-    title: 'Medium Clone - Blog Page',
-    description: "",
-      image: '/images/mediumClone.png',
-      tags: ['React', 'TypeScript', 'TailwindCSS'],
-    source: 'https://github.com/dvebino/Medium-Clone',
-    visit: 'https://rad-gaufre-e11798.netlify.app',
-    id: 3,
-    video: ''
-  },
+  }
 ];
